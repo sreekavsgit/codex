@@ -1,0 +1,34 @@
+{
+  "tomato": {
+    "type": "vegetable",
+    "seed_start": "6-8 weeks before last frost",
+    "transplant_outdoors": "after danger of frost",
+    "fertilization": "every 2-3 weeks with balanced fertilizer",
+    "notes": "Prefers full sun and well-drained soil."
+  },
+  "cucumber": {
+    "type": "vegetable",
+    "seed_start": "direct sow after last frost",
+    "fertilization": "monthly with compost tea",
+    "notes": "Provide trellis support."
+  },
+  "lettuce": {
+    "type": "vegetable",
+    "seed_start": "2-4 weeks before last frost",
+    "fertilization": "light feeding at planting",
+    "notes": "Prefers cool weather."
+  },
+  "rose": {
+    "type": "flower",
+    "seed_start": "propagate from cuttings or buy bare root",
+    "fertilization": "spring and mid-summer",
+    "notes": "Prune in early spring."
+  },
+  "marigold": {
+    "type": "flower",
+    "seed_start": "4-6 weeks before last frost",
+    "transplant_outdoors": "after danger of frost",
+    "fertilization": "at planting and mid-season",
+    "notes": "Great companion plant."
+  }
+}
