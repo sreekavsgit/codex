@@ -20,6 +20,7 @@ Run the command line interface:
 python -m garden_app list
 python -m garden_app info tomato
 python -m garden_app schedule tomato you@example.com 2024-04-01 --simulate
+python -m garden_app gui  # launch simple GUI (if Tkinter available)
 ```
 
 Set `SMTP_SERVER`, `SMTP_PORT`, `SMTP_USER`, and `SMTP_PASS` environment variables to send real emails. Use `--simulate` to print the messages instead.
