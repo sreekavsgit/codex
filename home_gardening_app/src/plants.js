@@ -29,4 +29,37 @@ export const plants = [
       { name: 'Zinnia', season: 'Summer', care: 'Easy', image: 'https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=200&q=60' },
     ],
   },
+  {
+    category: 'Herbs',
+    items: [
+      {
+        name: 'Basil',
+        season: 'Summer',
+        care: 'Easy',
+        image:
+          'https://images.unsplash.com/photo-1464965911861-746a04b4bca9?auto=format&fit=crop&w=200&q=60',
+      },
+      {
+        name: 'Mint',
+        season: 'Spring',
+        care: 'Easy',
+        image:
+          'https://images.unsplash.com/photo-1587049352859-64adf7b9c6c6?auto=format&fit=crop&w=200&q=60',
+      },
+      {
+        name: 'Parsley',
+        season: 'Spring',
+        care: 'Easy',
+        image:
+          'https://images.unsplash.com/photo-1615486367444-9a4a4a7006ee?auto=format&fit=crop&w=200&q=60',
+      },
+      {
+        name: 'Cilantro',
+        season: 'Spring',
+        care: 'Easy',
+        image:
+          'https://images.unsplash.com/photo-1498575207499-9e8cf0f1fe5a?auto=format&fit=crop&w=200&q=60',
+      },
+    ],
+  },
 ];
