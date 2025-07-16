@@ -4,6 +4,12 @@ from datetime import datetime
 from .data import load_plants
 from .scheduler import send_schedule
 
+# Optional GUI support
+try:
+    from .gui import run_gui
+except Exception:
+    run_gui = None
+
 
 def list_plants():
     plants = load_plants()
@@ -42,7 +48,12 @@ def main():
     sched_p.add_argument("name")
     sched_p.add_argument("email")
     sched_p.add_argument("start", help="Start date YYYY-MM-DD")
-    sched_p.add_argument("--simulate", action="store_true", help="Print emails instead of sending")
+    sched_p.add_argument(
+        "--simulate", action="store_true", help="Print emails instead of sending"
+    )
+
+    if run_gui:
+        sub.add_parser("gui", help="Launch graphical interface")
 
     args = parser.parse_args()
 
@@ -52,6 +63,8 @@ def main():
         plant_info(args.name)
     elif args.command == "schedule":
         schedule(args.name, args.email, args.start, args.simulate)
+    elif args.command == "gui" and run_gui:
+        run_gui()
     else:
         parser.print_help()
 
