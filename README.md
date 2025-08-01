@@ -24,3 +24,7 @@ python -m garden_app gui  # launch simple GUI (if Tkinter available)
 ```
 
 Set `SMTP_SERVER`, `SMTP_PORT`, `SMTP_USER`, and `SMTP_PASS` environment variables to send real emails. Use `--simulate` to print the messages instead.
+
+## AI Insight Dashboard
+
+The `ai_dashboard_app` directory contains a simple dashboard built with React and Vite. It shows the latest AI news, tool releases, models, and more. Run it locally with `npm run dev` and deploy to Vercel for easy hosting.
